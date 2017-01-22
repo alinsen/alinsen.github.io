@@ -7,3 +7,27 @@ body {
 h4, .txt {
   color: #D2D3D4;
 }
+
+#navbar {
+	margin: 13px 0 0 0;
+}
+
+#navbar ul{
+  float:right;
+}
+
+#navbar ul li {
+	display: inline;
+	margin: 0 20px 0 0;
+	margin-bottom: 130px;
+}
+
+#navbar a {
+	text-decoration: none;
+  color: #D2D3D4;
+}
+
+#navbar a:hover, #navbar li:hover {
+	text-decoration: underline;
+  color: #FFF;
+}
