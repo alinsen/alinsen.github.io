@@ -1,7 +1,15 @@
 /* custom.css - CSS written by Audra Linsenmayer as addtion to skeleton.css */
+html{
+  height: 100%;
+}
 
-body {
-  background-color: black;
+
+body{
+  background: linear-gradient(to top, rgba(9, 38, 97, 0.8), rgb(0, 0, 0), rgb(0, 0, 0));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  margin: 0;
 }
 
 h4, .txt {
@@ -30,4 +38,19 @@ h4, .txt {
 #navbar a:hover, #navbar li:hover {
 	text-decoration: underline;
   color: #FFF;
+}
+
+.stars{
+  position: absolute;
+  display: none;
+  opacity: .7;
+  background: #FFF;
+  width: 3px;
+  height: 3px;
+  z-index: -1;
+
+  box-shadow: 3px 3px  white,
+              -3px 3px white,
+              -3px -3px white,
+              3px -3px white;
 }
